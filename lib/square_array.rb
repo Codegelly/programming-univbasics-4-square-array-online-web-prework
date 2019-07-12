@@ -1,6 +1,8 @@
 def square_array(array)
   num = 0
   result = []
-  while num < array.length
-  array.map { |i| i * i}
+  while num < array.length do
+    result.push(array[num] * array[num])
+    num += 1
+  # array.map { |i| i * i}
 end 
