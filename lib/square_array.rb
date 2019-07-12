@@ -4,5 +4,5 @@ def square_array(array)
   while num < array.length do
     result.push(array[num] * array[num])
     num += 1
-  # array.map { |i| i * i}
+  end
 end 
